@@ -1,0 +1,41 @@
+$ turbo run dev
+• Packages in scope: @gitbook/emoji-codepoints, @gitbook/icons, @gitbook/react-contentkit, @gitbook/react-math, @gitbook/react-openapi, gitbook
+• Running dev in 6 packages
+• Remote caching disabled
+@gitbook/react-math:dev: cache bypass, force executing de686089677478cf
+@gitbook/react-openapi:dev: cache bypass, force executing 3592bffb6895f5e4
+@gitbook/icons:dev: cache bypass, force executing 051493057261433f
+@gitbook/react-math:dev: $ tsc -w
+gitbook:dev: cache bypass, force executing b7632e9a79be75d3
+@gitbook/react-contentkit:dev: cache bypass, force executing 6dce835a534ccf17
+@gitbook/react-openapi:dev: $ tsc -w
+@gitbook/icons:dev: $ tsc -w
+gitbook:dev: $ env-cmd -f ../../.env.local next dev
+@gitbook/react-contentkit:dev: $ tsc -w
+@gitbook/react-math:dev: c11:08:26 AM - Starting compilation in watch mode...
+@gitbook/react-math:dev: 
+@gitbook/react-openapi:dev: c11:08:26 AM - Starting compilation in watch mode...
+@gitbook/react-openapi:dev: 
+@gitbook/icons:dev: c11:08:26 AM - Starting compilation in watch mode...
+@gitbook/icons:dev: 
+@gitbook/react-contentkit:dev: c11:08:26 AM - Starting compilation in watch mode...
+@gitbook/react-contentkit:dev: 
+gitbook:dev:   ▲ Next.js 14.2.5
+gitbook:dev:   - Local:        http://localhost:3000
+gitbook:dev: 
+gitbook:dev:  ✓ Starting...
+@gitbook/react-math:dev: 
+@gitbook/react-math:dev: 11:08:29 AM - Found 0 errors. Watching for file changes.
+@gitbook/icons:dev: 
+@gitbook/icons:dev: 11:08:29 AM - Found 0 errors. Watching for file changes.
+@gitbook/react-contentkit:dev: 
+@gitbook/react-contentkit:dev: 11:08:30 AM - Found 0 errors. Watching for file changes.
+@gitbook/react-openapi:dev: 
+@gitbook/react-openapi:dev: 11:08:30 AM - Found 0 errors. Watching for file changes.
+gitbook:dev: Error: You cannot define a route with the same specificity as a optional catch-all route ("/" and "/[[...pathname]]").
+gitbook:dev:     at UrlNode._smoosh (/Users/rbgross/Documents/GitHub/aquaberabook/node_modules/next/dist/shared/lib/router/utils/sorted-routes.js:42:23)
+gitbook:dev:     at UrlNode.smoosh (/Users/rbgross/Documents/GitHub/aquaberabook/node_modules/next/dist/shared/lib/router/utils/sorted-routes.js:16:21)
+gitbook:dev:     at getSortedRoutes (/Users/rbgross/Documents/GitHub/aquaberabook/node_modules/next/dist/shared/lib/router/utils/sorted-routes.js:167:17)
+gitbook:dev:     at Watchpack.<anonymous> (/Users/rbgross/Documents/GitHub/aquaberabook/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js:558:65)
+gitbook:dev: [?25h
+ ERROR  run failed: command  exited (1)

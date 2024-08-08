@@ -4,7 +4,7 @@
     "private": true,
     "packageManager": "bun@1.1.18",
     "scripts": {
-        "dev": "turbo run dev",
+        "dev": "DEBUG=* next dev -p 3001",
         "build": "turbo run build",
         "build:cloudflare": "turbo run build:cloudflare",
         "lint": "turbo run lint",
